@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T07:02:51.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.20" etag="idAOgaTh0Cf8GIw2wY__" type="github"><diagram name="Page-1" id="PxCyB__f7VCLZMX9Gslc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-15T08:23:06.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_x2tid-LlSAY1qg7nW6a" version="20.8.20" type="github">
+  <diagram name="Page-1" id="PxCyB__f7VCLZMX9Gslc">
+    <mxGraphModel dx="794" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gB_eDgtcnI5Az9t0zZ-U-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gB_eDgtcnI5Az9t0zZ-U-41" target="gB_eDgtcnI5Az9t0zZ-U-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gB_eDgtcnI5Az9t0zZ-U-41" value="Logical&lt;br&gt;Replication" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="190" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gB_eDgtcnI5Az9t0zZ-U-42" value="Replication &lt;br&gt;Slot" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="185" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gB_eDgtcnI5Az9t0zZ-U-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gB_eDgtcnI5Az9t0zZ-U-43" target="gB_eDgtcnI5Az9t0zZ-U-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gB_eDgtcnI5Az9t0zZ-U-43" value="&lt;br&gt;PostgreSQL&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="80" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gB_eDgtcnI5Az9t0zZ-U-44" value="PgOutput Plugin" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gB_eDgtcnI5Az9t0zZ-U-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gB_eDgtcnI5Az9t0zZ-U-44" target="gB_eDgtcnI5Az9t0zZ-U-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="209.5" as="sourcePoint" />
+            <mxPoint x="340" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gB_eDgtcnI5Az9t0zZ-U-52" value="Replication Message&lt;br&gt;" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="gB_eDgtcnI5Az9t0zZ-U-51">
+          <mxGeometry width="120" height="60" relative="1" as="geometry">
+            <mxPoint x="-46" y="-35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
